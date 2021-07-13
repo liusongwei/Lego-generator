@@ -36,3 +36,8 @@ By running the sript **image2image.py**, we will have following outputs:
 * **python 3.6**
 * **cv2** 
 * **numpy**
+
+
+##C++
+g++ -std=c++14 -g legofy.cxx OpenLego.cxx -o lego -I/usr/local/include/opencv4 -I/usr/local/include -I/opt/homebrew/Cellar/boost/1.76.0/include -L/usr/local/lib -lopencv_core -lopencv_imgcodecs -lopencv_imgproc
+./lego
